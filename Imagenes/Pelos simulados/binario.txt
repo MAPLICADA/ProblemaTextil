@@ -1,0 +1,6 @@
+for(i=1;i<31;i++){
+open("~/Maplicada/ProblemaTextil/Imagenes/prueba/Imagen"+i+".png");
+setOption("BlackBacground",false);
+run("Make Binary");
+run("Save","save=~/Maplicada/ProblemaTextil/Imagenes/binaries/Imagen"+i+".tif");
+}
